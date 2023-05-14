@@ -1,0 +1,32 @@
+.Home-intro {
+  h2 {
+    color: #85a2e5;
+  }
+  .main-homeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: #c6cfe6f1;
+  }
+  .text-home {
+    font-size: 18px;
+  }
+  .image-home,
+  .info-homeText {
+    padding: 10px;
+    width: 50%;
+    height: 50%;
+  }
+  .image-style {
+    width: 100%;
+    height: 100%;
+  }
+  .info-homeText {
+    width: 100%;
+    height: 100%;
+    font-size: 17px;
+    margin-right: 5px;
+    line-height: 1.8;
+  }
+}
