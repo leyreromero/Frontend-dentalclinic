@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.scss";
 import imagenPaciente from "../../../public/images/paciente.jpeg";
+import homeimage2 from "../../../public/images/homeimage2.jpeg";
 
 function Home() {
   return (
@@ -37,7 +38,11 @@ function Home() {
             realizando una odontología responsable basada en mínima
             intervención.
           </p>
+          <button className="btn-appointment">PIDE TU CITA</button>
         </div>
+      </div>
+      <div className="image2-container">
+        <img className="image2" src={homeimage2} alt="smile-dental" />
       </div>
     </div>
   );
