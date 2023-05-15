@@ -1,9 +1,14 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./Home.scss";
 import imagenPaciente from "../../../public/images/paciente.jpeg";
 import homeimage2 from "../../../public/images/homeimage2.jpeg";
 
 function Home() {
+  const navigate = useNavigate();
+  const handleLogin = () => {
+    navigate("/login");
+  };
   return (
     <div className="Home-intro">
       <div className="text-home">
@@ -38,7 +43,9 @@ function Home() {
             realizando una odontología responsable basada en mínima
             intervención.
           </p>
-          <button className="btn-appointment">PIDE TU CITA</button>
+          <button onClick={handleLogin} className="btn-appointment">
+            PIDE TU CITA
+          </button>
         </div>
       </div>
       <div className="image2-container">

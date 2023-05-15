@@ -1,0 +1,26 @@
+.Registro {
+  .register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 100%;
+    width: 100%;
+
+    .register-cases {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .btn-newUser {
+    width: 250px;
+    height: 40px;
+    border-radius: 7px;
+    margin: 1em;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #85a2e5;
+  }
+}
